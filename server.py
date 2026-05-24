@@ -142,6 +142,7 @@ def get_fixtures():
                     "odds": {"home": home_odd, "away": away_odd}
                 })
             return jsonify({"success": True, "fixtures": processed})
+            pass
     except Exception as e:
         print(f"Live server failed because of: {e}")
 
