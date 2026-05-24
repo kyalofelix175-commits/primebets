@@ -143,6 +143,7 @@ def get_fixtures():
                 })
             return jsonify({"success": True, "fixtures": processed})
     except Exception as e:
+        print(f"Live server failed because of: {e}")
 
     # Sandbox fallback matches if internet drops or API limits clear out
     mock_fixtures = [
