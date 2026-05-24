@@ -142,8 +142,7 @@ def get_fixtures():
                     "odds": {"home": home_odd, "away": away_odd}
                 })
             return jsonify({"success": True, "fixtures": processed})
-    except Exception:
-        pass
+    except Exception as e:
 
     # Sandbox fallback matches if internet drops or API limits clear out
     mock_fixtures = [
