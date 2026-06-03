@@ -150,8 +150,6 @@ def get_fixtures():
     mock_fixtures = [
         {"id": "mock_1", "home_team": "Manchester City", "away_team": "Arsenal", "start_time": "2026-08-10T19:45:00Z", "is_live": False, "odds": {"home": 1.85, "away": 3.40}},
         {"id": "mock_2", "home_team": "Real Madrid", "away_team": "Barcelona", "start_time": "2026-08-11T20:00:00Z", "is_live": False, "odds": {"home": 2.15, "away": 2.95}},
-        {"id": "mock_1", "home_team": "Arsenal", "away_team": "Man united", "start_time": "2026-08-10T19:45:00Z", "is_live": True, "odds": {"home": 1.85, "away": 3.40}},
-        {"id": "mock_2", "home_team": "Chelsea", "away_team": "A madrid", "start_time": "2026-08-11T20:00:00Z", "is_live": False, "odds": {"home": 2.15, "away": 2.95}},       
     ]
 
     return jsonify({"success": True, "fixtures": mock_fixtures, "note": "Displaying system sandbox matches."})
