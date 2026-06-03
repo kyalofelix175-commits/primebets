@@ -127,18 +127,19 @@ body {
     margin-bottom: 5px;
 }
 
-.post img {
+.post {
     width: 400px;
     height: 150px;
-    object-fit: auto;
+    border-image-repeat: repeat;
     border-radius: 20px;
     margin-left: 12px;
     margin-right: 12px;
     margin-top: 15px;
     border-bottom-style: dashed;
+    display: flex;
 }
 
-.post2 img {
+.post1 img {
     width: 425px;
     height: 100px;
     margin-top: -23.5px;
@@ -347,14 +348,14 @@ body {
     background: linear-gradient(180deg, transparent 50%, #036b225b 100%);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    padding: 20px 24px;
+    padding: 20px 17.5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid var(--border-color);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     margin-bottom: 0px;
