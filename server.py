@@ -24,7 +24,7 @@ stk_mappings = {}      # checkout_id -> {phone, amount}
 # API CREDENTIALS & PRODUCTION ENVIRONMENT CONFIG
 # ----------------------------------------------------
 ODDS_API_KEY = os.getenv("ODDS_API_KEY")
-ODDS_API_URL = "https://api.the-odds-api.com/v4/sports/soccer_epl/odds/"
+ODDS_API_URL = "https://api.the-odds-api.com/v4/sports/soccer/odds/"
 
 MPESA_CONSUMER_KEY = os.getenv("MPESA_CONSUMER_KEY")
 MPESA_CONSUMER_SECRET = os.getenv("MPESA_CONSUMER_SECRET")
