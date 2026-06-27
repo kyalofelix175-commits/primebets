@@ -672,7 +672,7 @@ body {
 .fixture-row {
     display: flex;
     align-items: center;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.534) 20%, transparent 80%);
+    background: black;
     padding: 30px;
     margin-bottom: 7.5px;
     transition: var(--transition-fast);
